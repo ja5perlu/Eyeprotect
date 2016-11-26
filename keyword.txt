@@ -1,0 +1,3 @@
+Eyeprotect	KEYWORD1
+distance	KEYWORD2
+light		KEYWORD2
