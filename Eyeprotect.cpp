@@ -27,19 +27,19 @@ void Eyeprotect::distance()
     float duration, distance;
 
     digitalWrite(_pin, HIGH);
-    delay(1);                        
+    delay(1);                               //delay 1 millisecond
     digitalWrite(_pin, LOW);
-    duration = pulseIn (_pin1, HIGH);    
-    distance = (duration/2)/29;         
+    duration = pulseIn (_pin1, HIGH);       //duration = length*2
+    distance = (duration/2)/29;             //speed of ultrasonic = 340 m/s, distance(cm) = length/2/29
 
-    if(distance>=200||distance<=2){      
+    if(distance>=200||distance<=2){         //too far or too close
         Serial.print("[Out of range]                    ");    
     }
     else{
         Serial.print("distance = ");
     	Serial.print(distance);
     	Serial.print(" cm  ");
-    	if(distance<=50){ 
+    	if(distance<=50){                   //too close
      		if(distance<10)
       		Serial.print(" ");
       		Serial.print("[too close]  ");        
@@ -60,7 +60,7 @@ void Eyeprotect::light()
   	Serial.print("light = ");
   	Serial.print(lighter);
   	Serial.print(" %   ");
-  		if(lighter<=30){                               //too dark 
+  		if(lighter<=30){             //too dark 
      		if(lighter<10)
       		Serial.print(" ");
       	Serial.print("[too dark]");        
