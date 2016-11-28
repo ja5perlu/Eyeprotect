@@ -1,2 +1,8 @@
 # Eyeprotect
-  This is a code for protect your eyes. At first, you need an arduino Leonardo, HC-SR04 and Light sensor. 
+  This is a code for protect your eyes. First of all, you need to prepare this:
+  ● Hardware
+  - Arduino Leonardo
+  - HC-SR04
+  - Light sensor
+  ● Software
+  - Arduino 1.6.12
