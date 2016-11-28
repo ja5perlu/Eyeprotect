@@ -9,4 +9,8 @@ This is a code for protect your eyes. First of all, you need this :
 **Software**
   - Arduino 1.6.12
   
-Second,you need to install Arduino 1.6.12, connect all equipments and ensure that can work. 
+Second, you need to install Arduino 1.6.12, setting up Arduino board and Incoming port.   
+
+Third, connect all equipments, turn the light of Arduino Leonardo on.   
+
+Finally, ensure that can work. 
