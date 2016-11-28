@@ -1,8 +1,8 @@
 # Eyeprotect
-  This is a code for protect your eyes. First of all, you need to prepare this:
-  ● Hardware
+  This is a code for protect your eyes. First of all, you need to prepare this :
+  ◎ Hardware
   - Arduino Leonardo
   - HC-SR04
   - Light sensor
-  ● Software
+  ◎ Software
   - Arduino 1.6.12
