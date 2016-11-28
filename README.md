@@ -3,6 +3,6 @@
 **Hardware**
   - Arduino Leonardo
   - HC-SR04
-  - Light sensor   
+  - Light sensor V1.2    
 **Software**
   - Arduino 1.6.12
